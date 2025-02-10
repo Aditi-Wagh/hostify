@@ -15,16 +15,6 @@ by Google.
 NoSQL, cloud-hosted database service that allows to store and synchronize data in real-time
 across multiple clients.
 
-Keywords
-● Hostel management
-● Room allocation
-● Student data management
-● Night Out requests
-● Complaint resolution
-● Mess registration
-● Menu management
-● User notifications
-● Dynamic UI
 
 Abstract
 Hostels, as crucial accommodation providers, grapple with a range of inefficiencies in their
@@ -56,6 +46,8 @@ wardens and maintenance staff.
 employees. This feature streamlines employee leave management.
 6. Complaint Resolution: The admin can review and resolve complaints submitted by students
 regarding various hostel-related issues, ensuring a smooth living experience for the residents.
+![image](https://github.com/user-attachments/assets/0ca6150e-cefa-4b6e-a1b8-f62c08ceb28e)
+
 Student Module:
 1. Complete the student profile:Student can fill the remaining details in his/her profile and
 upload his/her photo.
@@ -74,6 +66,9 @@ administrators regarding hostel events, rules, and other important information.
 8. Laundry Booking: Students can apply for laundry services and book time slots for their
 laundry activities.
 
+![image](https://github.com/user-attachments/assets/f92cdb0a-53bf-4e1a-a91a-f0858130466c)
+
+
 Hostel Employee Module
 Warden Section:
 1. Publish Notices: Wardens can publish important notices and announcements for students
@@ -82,6 +77,7 @@ residing in the hostel.
 students. They can review and take action on these requests by accepting or rejecting them.
 3. Leave Application: Wardens can apply for leave and submit their requests to the admin for
 approval. This ensures proper management of the hostel in the warden's absence.
+![image](https://github.com/user-attachments/assets/fe3ab87f-3bf7-4448-be0f-a0a70effad85)
 
 Mess Employee Section:
 1. Menu Management: Mess employees can add and update the daily breakfast, lunch, and
@@ -105,10 +101,13 @@ card-based layouts for displaying information efficiently.
 6. ArrayAdapter: Employed for creating dynamic drop-down menus, ensuring flexible and
 user-friendly options for making selections or providing information.
 
+![image](https://github.com/user-attachments/assets/81869e8c-7c8a-407a-8e0d-febccd86700f)
+
+
 Conclusion:
 In conclusion, Hostelify aims to address the challenges faced by administrators, students, and hostel
 employees in managing hostel operations. With a clear problem statement and a well-defined scope,
 this hostel management system offers streamlined processes, efficient communication, and
 user-friendly features. Through secure login and registration, it ensures a safe and structured
 environment for all stakeholders involved.
-![image](https://github.com/user-attachments/assets/0ca6150e-cefa-4b6e-a1b8-f62c08ceb28e)
+
