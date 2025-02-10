@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "224723883386",
+    "project_id": "hostel-management-e764c",
+    "storage_bucket": "hostel-management-e764c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224723883386:android:97334e8d15e2905698f2c3",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJpfxkE3CUyoc9KvBfrdCVMSj3_WonXv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

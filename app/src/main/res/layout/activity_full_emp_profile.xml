@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!-- tools:context=".Full_ViewProfile"-->
+
+    <!--Edit text to enter course name-->
+    <EditText
+        android:id="@+id/Stud_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter course Name" />
+
+    <!--edit text to enter course duration-->
+    <EditText
+        android:id="@+id/Stud_Phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Course Duration" />
+
+    <!--edit text to display course tracks-->
+    <EditText
+        android:id="@+id/Parent_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Course Teacher" />
+
+    <!--edit text for course description-->
+    <EditText
+        android:id="@+id/Parent_Phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Course Mode" />
+
+    <EditText
+        android:id="@+id/Stud_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Course Duration" />
+
+    <!--edit text to display course tracks-->
+    <EditText
+        android:id="@+id/Stud_Pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Course Teacher" />
+
+    <!--edit text for course description-->
+    <EditText
+        android:id="@+id/Hostel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Course Mode" />
+    <EditText
+        android:id="@+id/Room"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Course Mode" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="90dp"
+        android:text="Back"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

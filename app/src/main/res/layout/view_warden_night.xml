@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!-- tools:context=".Full_ViewProfile"-->
+
+    <!--Edit text to enter course name-->
+    <EditText
+        android:id="@+id/Stud_Name1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter course Name" />
+
+    <!--edit text to enter course duration-->
+    <EditText
+        android:id="@+id/Stud_Phone1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Course Duration" />
+
+    <!--edit text to display course tracks-->
+    <EditText
+        android:id="@+id/Parent_Name1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Course Teacher" />
+
+    <!--edit text for course description-->
+    <EditText
+        android:id="@+id/Parent_Phone1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Course Mode" />
+
+    <EditText
+        android:id="@+id/Reason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Course Mode" />
+
+    <EditText
+        android:id="@+id/Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Course Mode" />
+
+    <EditText
+        android:id="@+id/Status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Course Mode" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:id="@+id/accept"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            android:layout_marginLeft="80dp"></Button>
+        <Button
+            android:id="@+id/reject"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:visibility="visible"
+            android:layout_height="wrap_content"></Button>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="90dp"
+        android:gravity="center"
+        android:text="Back"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

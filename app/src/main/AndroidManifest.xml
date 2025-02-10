@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Material3.Light"
+        tools:targetApi="31">
+        <activity
+            android:name=".NotificationReceiver"
+            android:exported="false" />
+        <activity
+            android:name=".Stud_noticeboard"
+            android:exported="false" />
+        <activity
+            android:name=".View_WardenNight"
+            android:exported="false" />
+        <activity
+            android:name=".NoticeBoard"
+            android:exported="false" />
+        <activity
+            android:name=".Add_New_Note"
+            android:exported="false" />
+        <activity
+            android:name=".Student_Profile"
+            android:exported="false" />
+        <activity
+            android:name=".Full_EmpProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Full_ViewProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Leave_Apply"
+            android:exported="false" />
+        <activity
+            android:name=".View_Student"
+            android:exported="false" />
+        <activity
+            android:name=".StudMess_dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Stud_ViewAttendance"
+            android:exported="false" />
+        <activity
+            android:name=".Student_dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Add_messRegister"
+            android:exported="false" />
+        <activity
+            android:name=".Add_Laundry"
+            android:exported="false" />
+        <activity
+            android:name=".add_issue"
+            android:exported="false" />
+        <activity
+            android:name=".Add_Nightout"
+            android:exported="false" />
+        <activity
+            android:name=".Add_emp"
+            android:exported="false" />
+        <activity
+            android:name=".Security_dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Warden_dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Mess_dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Login_mess"
+            android:exported="false" />
+        <activity
+            android:name=".Login_security"
+            android:exported="false" />
+        <activity
+            android:name=".Login_warden"
+            android:exported="false" />
+        <activity
+            android:name=".Employee_dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Login_student"
+            android:exported="false" />
+        <activity
+            android:name=".Start"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Add_student"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar" />
+        <activity
+            android:name=".Admin_dashboard"
+            android:exported="false" />
+    </application>
+
+</manifest>

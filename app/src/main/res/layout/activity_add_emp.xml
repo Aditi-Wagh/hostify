@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context=".Add_emp"
+    android:orientation="vertical">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+
+        app:cardCornerRadius="30dp"
+
+
+        app:cardElevation="30dp" >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+
+            android:orientation="vertical"
+            android:padding="24dp">
+
+
+            <ImageView
+                android:id="@+id/three_bars"
+                android:layout_width="48dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="1dp"
+                android:src="@drawable/menu2"></ImageView>
+            <RelativeLayout
+                android:id="@+id/popupLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:background="@android:color/white"
+                android:layout_centerInParent="true">
+
+            <!-- Add your navigation options or other content here -->
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/studentd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Enter Student Details"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="26sp"
+                android:textStyle="bold">
+
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/ename"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+
+                android:hint="Employee's Name"
+                android:padding="8dp"
+                android:textColor="@color/black">
+
+
+            </EditText>
+
+
+            <EditText
+                android:id="@+id/ephone"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+
+                android:hint="Employee's Phone Number"
+                android:inputType="number"
+                android:padding="8dp"
+                android:textColor="@color/black"></EditText>
+
+            <EditText
+                android:id="@+id/eemail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+
+                android:hint="Employee's email "
+                android:inputType="text"
+                android:padding="8dp"
+                android:textColor="@color/black"></EditText>
+
+            <EditText
+                android:id="@+id/pass"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+
+                android:hint="Employee's password"
+                android:inputType="textPassword"
+                android:padding="8dp"
+                android:textColor="@color/black"></EditText>
+
+            <EditText
+                android:id="@+id/addr"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+
+                android:hint="Permanent Address"
+                android:inputType="text"
+                android:padding="8dp"
+                android:textColor="@color/black"></EditText>
+
+            <EditText
+                android:id="@+id/adhar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+
+                android:hint="Employee Aadhaar Number"
+                android:padding="8dp"
+
+                android:textColor="@color/black"></EditText>
+
+            <EditText
+                android:id="@+id/type"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+
+                android:hint="Employee Type"
+                android:padding="8dp"
+
+                android:textColor="@color/black"></EditText>
+
+            <EditText
+                android:id="@+id/hostelno"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+
+                android:hint="Hostel Number"
+                android:padding="8dp"
+
+                android:textColor="@color/black"></EditText>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/addbutton"
+                android:text="Add"
+                android:textSize="18sp"
+                android:backgroundTint="@color/black"
+                android:layout_marginTop="30dp"/>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</ScrollView>

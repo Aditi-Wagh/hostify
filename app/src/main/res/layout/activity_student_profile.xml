@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Student_Profile"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:background="#DAF5FF"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="30dp" >
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <ImageView
+                android:id="@+id/three_bars"
+                android:layout_width="48dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="1dp"
+                android:src="@drawable/menu2"></ImageView>
+            <RelativeLayout
+                android:id="@+id/popupLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:background="@android:color/white"
+                android:layout_centerInParent="true">
+
+                <!-- Add your navigation options or other content here -->
+                <Button
+                    android:id="@+id/back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Back"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/studentd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:gravity="center_horizontal"
+                android:text="Complete Profile"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="26sp"
+                android:textStyle="bold">
+            </TextView>
+
+            <EditText
+                android:id="@+id/sname"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/custom_edittext"
+                android:hint="Student's Name"
+                android:padding="8dp"
+                android:textColor="@color/black">
+            </EditText>
+
+            <EditText
+                android:id="@+id/sph"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/custom_edittext"
+                android:hint="Student's Phone Number"
+                android:inputType="number"
+                android:padding="8dp"
+                android:textColor="@color/black"></EditText>
+
+            <EditText
+                android:id="@+id/semail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/custom_edittext"
+                android:hint="Student's email "
+                android:inputType="text"
+                android:padding="8dp"
+                android:textColor="@color/black"></EditText>
+
+            <EditText
+                android:id="@+id/pname"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/custom_edittext"
+                android:hint="Parent's Name"
+                android:inputType="textPassword"
+                android:padding="8dp"
+                android:textColor="@color/black"></EditText>
+
+            <EditText
+                android:id="@+id/pph"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/custom_edittext"
+                android:hint="Parent's Phone"
+                android:inputType="text"
+                android:padding="8dp"
+                android:textColor="@color/black"></EditText>
+
+            <EditText
+                android:id="@+id/p_email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/custom_edittext"
+                android:hint="Parent's email"
+                android:padding="8dp"
+
+                android:textColor="@color/black"></EditText>
+
+            <EditText
+                android:id="@+id/studAdhar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/custom_edittext"
+                android:hint="Student's Aadhaar Number"
+                android:padding="8dp"
+
+                android:textColor="@color/black"></EditText>
+
+            <EditText
+                android:id="@+id/studAddr"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/custom_edittext"
+                android:hint="Student's Permanant Address"
+                android:padding="8dp"
+
+                android:textColor="@color/black"></EditText>
+
+            <EditText
+                android:id="@+id/hostelno"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/custom_edittext"
+                android:hint="Hostel Number"
+                android:padding="8dp"
+                android:textColor="@color/black"></EditText>
+
+            <EditText
+                android:id="@+id/Guard_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/custom_edittext"
+                android:hint="Student's email "
+                android:inputType="text"
+                android:padding="8dp"
+                android:textColor="@color/black"></EditText>
+
+            <EditText
+                android:id="@+id/Guard_Phone"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/custom_edittext"
+                android:hint="Student's email "
+                android:inputType="text"
+                android:padding="8dp"
+                android:textColor="@color/black"></EditText>
+
+            <EditText
+                android:id="@+id/Guard_Address"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/custom_edittext"
+                android:hint="Student's email "
+                android:inputType="text"
+                android:padding="8dp"
+                android:textColor="@color/black"></EditText>
+
+            <EditText
+                android:id="@+id/roomno"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/custom_edittext"
+                android:hint="Room Number"
+                android:padding="8dp"
+
+                android:textColor="@color/black"></EditText>
+
+            <ImageView
+                android:id="@+id/iv1"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/admini"
+                app:layout_constraintBottom_toTopOf="@+id/uploadbutton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/roomno" />
+
+            <Button
+                android:id="@+id/uploadbutton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="@color/black"
+                android:text="Upload Profile Picture"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/addbutton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="@color/black"
+                android:text="Add"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</ScrollView>
