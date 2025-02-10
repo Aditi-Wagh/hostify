@@ -111,3 +111,4 @@ employees in managing hostel operations. With a clear problem statement and a we
 this hostel management system offers streamlined processes, efficient communication, and
 user-friendly features. Through secure login and registration, it ensures a safe and structured
 environment for all stakeholders involved.
+![image](https://github.com/user-attachments/assets/0ca6150e-cefa-4b6e-a1b8-f62c08ceb28e)
